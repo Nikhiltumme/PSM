@@ -1,0 +1,100 @@
+.box{
+    border-style: solid;
+    height: 300px;
+}
+*{
+   box-sizing: border-box;
+}
+.cname{
+    background-color:#4b8ec1;
+    font-size: 40px;
+    height:150px ;
+    text-align:center;
+    color: white;
+    padding-top: 30px;
+}
+.menu{
+    background-color: black;
+    height: 50px;
+    text-align:center;
+    padding-top: 18px;
+}
+.menu a{
+    color: white;
+    text-decoration: none;
+    display: block;
+}
+.banner{
+    background-image: url('../photo/tablesaw.jpeg');
+    height: 500px;
+    background-repeat:no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.about{
+    background-color:black;
+    height: 50px;
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    padding-top: 10px;
+    margin-top: 5px;
+    box-shadow: 0px 0px 5px tomato;
+}
+.about_content{
+    text-align:left;
+    font-size:15px;
+
+}
+p{
+	
+    text-align:justify;
+}
+.products{
+    background-color:black;
+    height: 50px;
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    padding-top: 10px;
+    margin-top: 5px;
+    box-shadow: 0px 0px 5px tomato;
+}
+
+.product_images{
+    border-style: solid;
+    color: black;
+    text-align: center;
+    padding-top: 10px;
+    margin-top: 5px;
+}
+.product_images img{
+    width: 280px;
+    height: 280px;
+    text-align:justify;
+}
+.footer{
+    margin-top: 10px;
+    background-color:#4b8ec1;
+    height: 50px;
+    color: white;
+
+}
+.footer_sec1{
+    padding-left: 5px;
+    height: 50px;
+    text-align: left;
+}
+.footer_sec2{
+    padding-top: 0px;
+    text-align: right;
+}
+label{
+    width: 30px;
+}
+textarea{
+    width: 280px;
+}
+.page_heading{
+    border-bottom: black;
+}
